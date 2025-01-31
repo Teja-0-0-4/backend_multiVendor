@@ -1,0 +1,9 @@
+express
+nodemon
+mongoose
+dotenv
+body-parser
+mongodb
+jsonwebtoken
+bcryptjs
+multer

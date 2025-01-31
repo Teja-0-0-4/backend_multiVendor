@@ -1,0 +1,28 @@
+Dependencies
+
+Express
+Mongoose
+Dotenv
+Body-parser
+nodemon
+mongodb
+
+
+NODE JS
+1.set up installation
+2.Connecting to database
+3.Building APIs
+  - models
+     vendor:email,username,password
+     firm:firmName,area,category,region,offer,image
+     products:productName,price,category,image,bestseller,description
+  - Controllers
+     vendorController
+  - routes
+     vendorRoutes
+4.Authentication
+5.Controllers with logic
+6.Routing
+7.API testing with postman
+8.Github
+9.free deploy
