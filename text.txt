@@ -26,3 +26,5 @@ NODE JS
 7.API testing with postman
 8.Github
 9.free deploy
+
+create vite@latest

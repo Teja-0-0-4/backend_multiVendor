@@ -7,3 +7,4 @@ mongodb
 jsonwebtoken
 bcryptjs
 multer
+cors

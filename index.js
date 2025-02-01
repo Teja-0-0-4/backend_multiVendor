@@ -6,6 +6,7 @@ const vendorRoutes = require('./routes/vendorRoutes')
 const firmRoutes = require('./routes/firmRoutes')
 const productRoutes = require('./routes/productRoutes');
 const path = require('path');
+const cors=require('cors');
 
 const app = express()
 
@@ -16,6 +17,7 @@ mongoose.connect(process.env.MONGO_URL)
     .then(()=>console.log("Mongodb connected successfully"))
     .catch((error)=>console.log(error))
 
+app.use(cors())    
 app.use(bodyParser.json())
 app.use('/vendor',vendorRoutes)
 app.use('/firm',firmRoutes)
