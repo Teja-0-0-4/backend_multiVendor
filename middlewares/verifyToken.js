@@ -1,8 +1,8 @@
 const Vendor = require('../models/Vendor');
 const jwt = require('jsonwebtoken');
-const dotenv = require('dotenv');
+const dotEnv = require('dotenv');
 
-dotenv.config()
+dotEnv.config()
 
 const secretKey = process.env.SECRET_KEY
 
